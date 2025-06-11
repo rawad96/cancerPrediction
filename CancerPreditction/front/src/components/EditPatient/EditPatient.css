@@ -1,0 +1,69 @@
+.editPatientDiv {
+    width: 50%;
+    height: 90%;
+    padding: 2%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid rgb(214, 214, 214);
+    z-index: 11;
+    text-align: center;
+    overflow: auto;
+}
+
+.editPatientDiv input,
+.editPatientDiv textarea {
+    border-radius: 5px;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.saveButton,
+.deleteButton {
+    border-radius: 5px;
+    width: 20%;
+    padding: 6px;
+    color: white;
+    transition: all 1s;
+}
+
+.saveButton {
+
+    border: 1px solid black;
+    background-color: black;
+
+}
+
+.saveButton:hover {
+    background-color: rgb(19, 19, 19);
+}
+
+.deleteButton {
+    border: 1px solid red;
+    background-color: red;
+}
+
+.deleteButton:hover {
+    background-color: rgb(161, 25, 25);
+}
+
+.deletePatientDiv {
+    width: 40%;
+    padding-bottom: 2%;
+    background-color: white;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    z-index: 11;
+}
+
+.deletePatientDiv input {
+    width: 50%;
+    padding: 1%;
+    border-radius: 5px;
+    border: 1px solid rgb(136, 136, 136);
+}

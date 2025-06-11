@@ -1,0 +1,22 @@
+body {
+    overflow: hidden;
+}
+
+.dash_h1 {
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.dashboard {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 2rem;
+}

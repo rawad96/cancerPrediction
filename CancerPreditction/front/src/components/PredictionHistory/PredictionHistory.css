@@ -1,0 +1,34 @@
+.viewDataButton {
+    display: flex;
+    background-color: black;
+    border: unset;
+    border-radius: 5px;
+    color: white;
+    height: 60%;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.viewDataButton:hover {
+    background-color: rgb(41, 41, 41);
+}
+
+.ag-cell {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.viewPredictionDataContainer {
+    position: absolute;
+    left: 50%;
+    height: 70%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    width: 70%;
+    z-index: 11;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+}

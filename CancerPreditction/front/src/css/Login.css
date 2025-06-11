@@ -1,0 +1,144 @@
+.mainDiv {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    flex-direction: row;
+    display: flex;
+}
+
+.ribbonDiv,
+.dataDiv {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.ribbonDiv {
+    background-image: url("../assets/ribbon.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.dataDiv {
+    background-color: rgb(20, 206, 206);
+}
+
+.formDiv {
+    background-color: white;
+    width: 50%;
+    border-radius: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+.formTitle {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.formDiv form {
+    width: 70%;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    gap: 8px;
+}
+
+.inputIcon {
+    position: absolute;
+    left: 5px;
+    font-size: 1rem;
+    color: #888;
+}
+
+.inputWithIcon {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.inputWithIcon input {
+    width: 100%;
+    padding-left: 30px;
+    border: unset;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    padding-top: 8px;
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+
+.inputWithIcon input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+.inputWithIcon input:focus {
+    outline: none;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.forgotPassSpan {
+    cursor: pointer;
+}
+
+.forgotPassSpan:hover {
+    color: #373737;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.buttonDiv button {
+    background: linear-gradient(135deg, #21c1ca 0%, #1970ae 100%);
+    border-radius: 20px;
+    padding: 10px;
+    width: 60%;
+    border: unset;
+    cursor: pointer;
+}
+
+.buttonDiv button:hover {
+    background: linear-gradient(135deg, #33dfe8 0%, #2594e2 100%);
+}
+
+@media(max-width:1500px) {
+    .formDiv {
+        width: 60%;
+    }
+}
+
+@media(max-width:1200px) {
+    .formDiv {
+        width: 70%;
+    }
+}
+
+@media(max-width:992px) {
+    .formDiv {
+        width: 80%;
+    }
+}
+
+@media(max-width:768px) {
+    .ribbonDiv {
+        display: none;
+    }
+
+    .dataDiv {
+        width: 100%;
+    }
+}

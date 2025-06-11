@@ -1,0 +1,61 @@
+.topRightDiv {
+    margin-left: auto;
+    display: flex;
+}
+
+.topRightDiv div {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 9px;
+    padding-right: 9px;
+    cursor: pointer;
+}
+
+.topRightDiv div:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.main_navbar {
+    background-color: white;
+    width: 20%;
+    border-radius: 20px;
+    border: 1px solid rgb(218, 218, 218);
+    height: max-content;
+}
+
+.main_navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main_navbar li {
+    color: black;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    padding: 17px;
+    display: block;
+    cursor: pointer;
+}
+
+.first_li {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.last_li {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none !important;
+}
+
+.main_navbar li:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.main_navbar_active {
+    background-color: rgb(228, 228, 228);
+}

@@ -1,0 +1,70 @@
+.spinnercontainer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 11;
+}
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #4f46e5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    z-index: 10;
+}
+
+@keyframes shine {
+    0% {
+        margin-left: -40%;
+    }
+
+    100% {
+        margin-left: 100%;
+    }
+}
+
+.viewLoadingDiv {
+    margin: 1%;
+    height: 70px;
+    overflow: hidden;
+    background-color: #e9e9e9;
+    border-radius: 20px;
+}
+
+.viewLoadingDiv2 {
+    width: 80%;
+}
+
+.viewLoadingDiv3 {
+    width: 60%;
+}
+
+.viewLoadingDiv4 {
+    width: 40%;
+}
+
+.viewLoadingDiv div {
+    background: linear-gradient(90deg, #e9e9e9, #f7f7f7 50%, #e9e9e9 90%);
+    width: 200px;
+    height: 100%;
+    border-radius: 20px;
+    animation: shine 2s ease-in-out infinite;
+}
+
+@media(max-width:512px) {
+    .spinnercontainer {
+        width: 200px;
+        height: 200px;
+    }
+}

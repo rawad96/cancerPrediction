@@ -1,0 +1,8 @@
+.mainView {
+    background-color: white;
+    max-height: 42rem;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 20px;
+    padding: 17px;
+    flex: 1;
+}

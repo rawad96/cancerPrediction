@@ -1,0 +1,10 @@
+.deletePatientButton {
+    border-radius: 5px;
+    width: 10%;
+    padding: 6px;
+    color: white;
+    transition: all 1s;
+    border: 1px solid red;
+    background-color: red;
+    margin-bottom: 10px;
+}
